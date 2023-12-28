@@ -1,0 +1,113 @@
+
+body{
+    /*
+    background-image: url("testbackground.jpeg");
+    background-position-x: center;
+    background-position-y: center;
+    border: 10px; 
+    height: 100vh;
+    width: 100vh;
+    */
+    border: 12px solid pink;
+    border-color: pink pink pink pink;
+    background-color: whitesmoke;
+}
+.dropdown{
+    position:relative;
+    display:inline-block;
+    text-align: right;
+}
+.dropbtn{
+    background-color: palevioletred;
+    color:whitesmoke;
+    padding:10px;
+    font-size:16px;
+    border:none;
+    cursor:pointer;
+}
+.dropcontent{
+    display:none;
+    position:absolute;
+    background-color: pink;
+    min-width: 120px;
+    z-index:1;
+
+}
+.dropcontent a{
+    display:block;
+    padding:10px;
+    text-decoration: none;
+    color:black;
+}
+.dropcontent a:hover{
+    background-color: white;
+}
+.dropdown:hover .dropcontent{
+    display:block;
+}
+.circleflower{
+    /*
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    */
+    border-radius: 50%; /* Additional border-radius for the image itself */
+}
+.aboutme, .ProjectsandSkills{
+   text-align: right;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-size-adjust: 16px;
+   color:pink;
+   text-decoration:none;
+
+}
+
+img {
+    max-width: 100px; /* Adjust the width of the image */
+    margin-right: 20px; /* Provides spacing between the image and heading */
+}
+
+h1{
+    text-align: left;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* text-shadow: 7px 7px 5px lightcoral;
+   */
+
+}
+.header{
+    background-color: pink;
+    padding:20px;
+    text-align: left;
+    height:25%;
+    box-sizing: border-box;
+    display:flex;
+}
+.tequilita{
+    display: flex;
+    align-items: center; /* Vertical alignment of items */
+    border-radius: 50%;
+  
+}
+.dog{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    padding:10px;
+   
+}
+
+hr{
+    color: black;
+    size: 15px;
+}
+
+p, h2{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+aside, form{
+    text-align: left;
+    border: 1px solid black;
+    
+}
